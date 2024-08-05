@@ -38,7 +38,7 @@ body {
     -moz-border-radius:15px;
     -ms-border-radius:15px;
     -o-border-radius:15px;
-    padding: 0 15px;
+    padding: 5px 15px;
     font-size: 25px
 }
 .cashInputSection button {
