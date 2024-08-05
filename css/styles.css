@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #eee
+}
+.container {
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px
+}
+.cashInputSection {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 25px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.cashInputSection input  {
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 30px;
+    outline:none;
+    border: 2px solid royalblue;
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+    padding: 0 15px;
+    font-size: 25px
+}
+.cashInputSection button {
+    width : 100%;
+    border: 2px solid royalblue;
+    border-radius:15px;
+    font-size: 25px;
+    height: 30px;
+    text-align:center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+button:hover {
+    background-color: royalblue;
+    color: white
+}
+.resultPart {
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 2.5;
+}
+.currentCid {
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.currentCid p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center
+}
+.currentCid ul{
+    list-style-type: none;
+}
+.currentCid ul li:not(:first-child){
+    margin-top: 20px;
+}
+.currentCid ul li {
+    display : flex;
+    background-color: #eee;
+    border: 1px solid #a39b9b;
+    padding: 5px;
+}
+.price {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    & span {
+        color: red;
+        cursor: pointer
+    }
+}
